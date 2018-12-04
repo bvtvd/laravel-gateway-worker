@@ -19,17 +19,17 @@ php artisan gatewayworker:install
 
 run application
 ```
-php artisan gatewaywoker start
+php artisan gatewayworker start
 ```
 
 run application in daemon
 ```
-php artisan gatewaywoker start --daemon
+php artisan gatewayworker start --daemon
 ```
 
 other command
 ```
-php artisan gatewaywoker [stop | restart | reload | status]
+php artisan gatewayworker [stop | restart | reload | status]
 ```
 
 #### develop
