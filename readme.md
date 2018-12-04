@@ -32,7 +32,7 @@ other command
 php artisan gatewayworker [stop | restart | reload | status]
 ```
 
-#### develop
+#### Develop
 
 - you can see GatewayWorker docs [here](http://doc2.workerman.net/)
 - app/GatewayWorker is the main directory for develop. YourApp is an Example for reference.
