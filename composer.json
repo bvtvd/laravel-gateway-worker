@@ -12,6 +12,9 @@
     "require": {
         "workerman/gateway-worker": "^3.0"
     },
+    "suggest": {
+        "laravel/framework": "~5.5"
+    },
     "extra": {
         "laravel": {
             "providers": [
