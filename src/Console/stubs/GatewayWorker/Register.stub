@@ -1,0 +1,16 @@
+<?php
+
+namespace App\GatewayWorker;
+
+
+
+class Register
+{
+    public $services = [
+        'YourApp' => [
+            YourApp\Services\BusinessWorker::class,
+            YourApp\Services\Gateway::class,
+            YourApp\Services\Register::class,
+        ]
+    ];
+}

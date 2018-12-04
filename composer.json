@@ -1,0 +1,22 @@
+{
+    "name": "bvtvd/laravel-gateway-worker",
+    "description": "a php socket framework package for laravel power by Workerman",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hans",
+            "email": "hans01@foxmail.com"
+        }
+    ],
+    "require": {
+        "workerman/gateway-worker": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bvtvd\\GatewayWorker\\GatewayWorkerServiceProvider"
+            ]
+        }
+    }
+}
